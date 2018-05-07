@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.wrap {
+	border: #b22418 1px solid;
+	border-top: 0px;
+	padding-bottom: 20px;
+}
+
+.main {
+	margin: 0px auto;
+	width: 980px;
+	margin-top: 5px;
+}
+
+.main .left {
+	float: left;
+	padding-top: 8px;
+	padding-left: 10px;
+	width: 213px;
+}
+
+.main .left dl {
+	width: 213px;
+}
+
+.main .left dl dt {
+	background: url(../image/left-title.png) no-repeat;
+	width: 213px;
+	height: 42px;
+}
+
+.main .left dl dd {
+	background: url(../image/left_nav_btn_bg.png) no-repeat;
+	width: 213px;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 3px;
+}
+
+.main .left dl dd a {
+	color: #FFF;
+	float: right;
+	margin-right: 35px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.main .left h1 {
+	width: 213px;
+	height: 30px;
+	background: url(../image/jk_title.png) no-repeat;
+	margin-top: 20px;
+}
+
+.main .left .jk_box {
+	width: 210px;
+	border: #e56f28 1px solid;
+	border-top: 0px;
+	margin-bottom: 30px;
+	padding-bottom: 5px;
+}
+
+.main .left .jk_box img {
+	margin-top: 5px;
+	margin-left: 4px;
+}
+
+.main .left .jk_box p {
+	margin: 6px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.main .right {
+	float: right;
+	padding-top: 8px;
+	width: 710px;
+	margin-right: 10px;
+}
+
+.main .right .position {
+	
+	text-indent: 24px;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+}
+
+.main .right h1.title {
+	height: 38px;
+	line-height: 38px;
+	margin-top: 8px;
+	border-bottom: 2px solid #e25c0b;
+	font-size: 18px;
+	color: #e25c0b;
+	text-indent: 20px;
+}
+
+.main .right .content {
+	padding: 10px;
+	line-height: 20px;
+}
+
+.news_list .list {
+	border-bottom: dashed 1px #e25c0b;
+	padding: 18px 8px;
+}
+
+.news_list .list h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 24px;
+	background: url(new_title_bg.jpg) no-repeat 0px 3px;
+}
+
+.news_list .list ul {
+	margin-top: 8px;
+}
+
+.news_list .list ul li {
+	background: url(news_icon.jpg) no-repeat 0px 6px;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 24px;
+}
+
+.news_list .list ul li a {
+	font-size: 12px;
+	float: left;
+}
+
+.news_list .list ul li span {
+	color: #ff7e00;
+	font-size: 11px;
+	float: left;
+	margin-left: 15px;
+}
+
+.news_list .list .more {
+	float: right;
+}
+
+.news_list .page {
+	text-align: center;
+	font-size: 12px;
+	height: 42px;
+	line-height: 42px;
+}
+
+.news_list .page a {
+	padding: 4px 6px;
+	border: #A5A5A5 solid 1px;
+	background: #F3EDE3;
+}
+
+.main .right h2.title {
+	padding: 5px 0px;
+	margin-top: 8px;
+	font-size: 18px;
+	text-indent: 3px;
+}
+
+.main .right h2.time {
+	padding-bottom: 8px;
+	border-bottom: 2px solid #e25c0b;
+	font-size: 14px;
+	text-indent: 3px;
+	font-weight: 100;
+	color: #777;
+}
+
+.main .right .xg_list {}
+
+.main .right .xg_list {
+	border: solid 1px #AB2100;
+	padding: 12px;
+}
+
+.main .right .xg_list h2 {
+	font-size: 14px;
+	font-weight: bold;
+	text-indent: 24px;
+	background: url(new_title_bg.jpg) no-repeat 0px 3px;
+	color: #791800;
+}
+
+.main .right .xg_list ul {
+	margin-top: 8px;
+}
+
+.main .right .xg_list ul li {
+	background: url(news_icon.jpg) no-repeat 0px 6px;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 18px;
+}
+
+.main .right .xg_list ul li a {
+	font-size: 12px;
+	float: left;
+}
+
+.main .right .xg_list ul li span {
+	color: #ff7e00;
+	font-size: 11px;
+	float: left;
+	margin-left: 15px;
+}
+
+.contact_us {
+	border-bottom: dotted 1px #e25c0b;
+	padding-bottom: 30px;
+}
+
+.contact_us .l {
+	width: 265px;
+	margin-left: 30px;
+	float: left;
+}
+
+.contact_us .l h1 {
+	background: url(contact_us.jpg) no-repeat;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-indent: 50px;
+	margin-top: 30px;
+}
+
+.contact_us dl {
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.contact_us dt {
+	font-size: 16px;
+	font-weight: bold;
+	border-bottom: dashed 1px #bebebe;
+	height: 30px;
+	line-height: 30px;
+}
+
+.contact_us dd {
+	font-size: 14px;
+	border-bottom: dashed 1px #bebebe;
+	line-height: 30px;
+	height: 30px;
+}
+
+.contact_us .r {
+	float: right;
+	width: 354px;
+	margin-top: 30px;
+}
+
+.messagebox {
+	margin-left: 30px;
+	padding-bottom: 50px;
+}
+
+.messagebox h1 {
+	background: url(email.jpg) no-repeat;
+	height: 35px;
+	font-size: 16px;
+	padding-left: 50px;
+	margin-top: 30px;
+}
+
+.messagebox h1 span {
+	font-size: 12px;
+	color: #919191;
+	font-weight: 100;
+}
+
+.messagebox ul {
+	margin-top: 20px;
+}
+
+.messagebox ul li {
+	margin: 15px 0px;
+}
+
+.messagebox ul li input,
+.messagebox ul li textarea {
+	border: 1px solid #8e8e8e;
+}
+
+.messagebox ul li font {
+	color: #F00;
+}
