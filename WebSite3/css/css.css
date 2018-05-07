@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /* CSS Document */
 
@@ -55,7 +55,8 @@ img {
 }
 
 .header .logo {
-	float: left;
+    height:140px;
+    background:url(../image/header-image.jpg);
 }
 
 .header .hua {

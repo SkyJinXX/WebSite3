@@ -20,11 +20,16 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <div class="logo">
-                <img src="image/header-image.jpg" height="140">
+    	<div class="logo">
+            <div style="font-size:2.5em;color:#ffffff;margin-left:16%;padding-top:0.9em;padding-bottom:0.2em;">
+                <b>“天使之音”残疾人关爱服务中心</b>
             </div>
-            <!--<div class="hua"><span><a href="http://www.gdfdp.org/index.aspx">首页</a> | <a href="javascript:;" onClick="window.external.addFavorite(' http://www.gdfdp.org/','“天使之音”残疾人关爱服务中心')">收藏我们</a> | <a href="http://www.gdfdp.org/online_donations.aspx">在线捐款</a></span></div>-->
-        </div>
+            <div style="font-size:2em;color:#ffffff;margin-left:18%;">
+                "VOICE OF ANGELS" DISABILITY CARE SERVICE CENTER
+            </div>
+    	</div>
+    	
+    </div>
         <div class="nav">
             <ul class="nav_btn">
                 <li style="width: 108px;">
