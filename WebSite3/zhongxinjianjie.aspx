@@ -63,7 +63,7 @@
         <div class="show" id="znav0" style="display:block"></div>
                 <div class="show" id="znav1">
         	<span style="margin-left:148px;">
-        	            	<a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="基金会简介">基金会简介</a>  |                        	<a href="http://www.gdfdp.org/lingdaojieshao.aspx" title="领导介绍">领导介绍</a>  |                        	<a href="http://www.gdfdp.org/jijinhuizhangcheng.aspx" title="基金会章程">基金会章程</a>  |                        	<a href="http://www.gdfdp.org/zuzhijiagou.aspx" title="组织架构">组织架构</a>  |                        	<a href="http://www.gdfdp.org/guanlizhidu.aspx" title="管理制度">管理制度</a>  |                        	<a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="荣誉、奖励资质展示">荣誉、奖励资质展示</a>                         </span>
+        	            	<a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="中心简介">中心简介</a>  |                        	<a href="http://www.gdfdp.org/lingdaojieshao.aspx" title="领导介绍">领导介绍</a>  |                        	<a href="http://www.gdfdp.org/jijinhuizhangcheng.aspx" title="基金会章程">基金会章程</a>  |                        	<a href="http://www.gdfdp.org/zuzhijiagou.aspx" title="组织架构">组织架构</a>  |                        	<a href="http://www.gdfdp.org/guanlizhidu.aspx" title="管理制度">管理制度</a>  |                        	<a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="荣誉、奖励资质展示">荣誉、奖励资质展示</a>                         </span>
         </div>
                 <div class="show" id="znav2">
         	<span style="margin-left:282px;">
@@ -110,7 +110,7 @@
         <div class="left">
             <dl>
                 <dt></dt>
-                <dd><a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="基金会简介">基金会简介</a></dd>
+                <dd><a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="中心简介">中心简介</a></dd>
                 <dd><a href="http://www.gdfdp.org/lingdaojieshao.aspx" title="领导介绍">领导介绍</a></dd>
                 <dd><a href="http://www.gdfdp.org/jijinhuizhangcheng.aspx" title="基金会章程">基金会章程</a></dd>
                 <dd><a href="http://www.gdfdp.org/zuzhijiagou.aspx" title="组织架构">组织架构</a></dd>
@@ -136,8 +136,8 @@
     	<div class="right">
         	<div class="position">
         		<i class="fa fa-window-restore" style="margin-left:-50px;font-size: 18px;"></i> 
-        		<a href="index.aspx">首页</a> &gt; 基金会简介<img src="./基金会简介_files/position_xian.jpg" width="448" height="12" style="margin-left:15px;"></div>
-            <h1 class="title">基金会简介</h1>
+        		<a href="index.aspx">首页</a> &gt; 中心简介</div>
+            <h1 class="title">中心简介</h1>
             <div class="content"><div sizset="false" sizcache031375515083225336="586.0.0"><span style="font-family:&#39;宋体&#39;;FONT-SIZE: 14pt"></span><div sizset="false" sizcache031375515083225336="586.0.0"><p><span style="font-family:&#39;新宋体&#39;;FONT-SIZE: 15pt">广东省残疾人公益基金会是2012年3月5日经广东省</span><span style="font-family:&#39;新宋体&#39;;FONT-SIZE: 15pt">民政厅</span><span style="font-family:&#39;新宋体&#39;;FONT-SIZE: 15pt">批准成立的公募性慈善组织，是全省性的残疾人社会福利团体。业务指导单位为广东省残疾人联合会，属于地方性公募基金会，原始基金400万元人民币。成立省残疾人公益基金会的目的，是多渠道、多形式，集腋成裘，大力发展残疾人慈善事业，促进我省残疾人事业的发展的重大作用，为构建和谐社会、幸福广东做贡献。</span></p><p style="TEXT-ALIGN: center"></p><p style="TEXT-ALIGN: center" sizset="false" sizcache031375515083225336="586.0.0"><span sizset="false" sizcache031375515083225336="586.0.0" style="font-family:&#39;宋体&#39;;FONT-SIZE: 14pt"></span></p><p style="TEXT-ALIGN: center"></p><p><span style="font-family:&#39;Times New Roman&#39;;FONT-SIZE: 10.5pt">&nbsp;</span></p></div><p>&nbsp;</p></div></div>
         </div>
     </div>
