@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="zhengcefagui.aspx.cs" Inherits="zhengcefagui" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="shangchuanzhengce.aspx.cs" Inherits="shangchuanzhengce" %>
 
 <!DOCTYPE html>
 <html>
@@ -17,7 +17,6 @@
 </head>
 
 <body>
-    <form runat="server">
 <div class="wrap">
 	<div class="header">
     	<div class="logo">
@@ -116,20 +115,7 @@
     <div class="c"></div>
     <div class="main">
         <div class="left">
-            <dl>                    
-                <dt></dt>
-                <dd><a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="杭州">杭州</a></dd>
-                <dd><a href="http://www.gdfdp.org/lingdaojieshao.aspx" title="宁波">宁波</a></dd>
-                <dd><a href="http://www.gdfdp.org/jijinhuizhangcheng.aspx" title="温州">温州</a></dd>
-                <dd><a href="http://www.gdfdp.org/zuzhijiagou.aspx" title="嘉兴">嘉兴</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="湖州">湖州</a></dd>
-                <dd><a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="绍兴">绍兴</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="金华">金华</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="衢州">衢州</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="舟山">舟山</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="台州">台州</a></dd>
-                <dd><a href="http://www.gdfdp.org/guanlizhidu.aspx" title="丽水">丽水</a></dd>
-            </dl>
+            
             <h1></h1>
             <div class="jk_box">
                 <img src="image/ws_img.png" width="193" height="25">
@@ -146,54 +132,71 @@
                     <img src="image/爱心捐赠-small.jpg" width="203" height="51"></a>
             </div>
         </div>
+        <form runat="server">
         <div class="right">
             <div class="position">
                 <i class="fa fa-window-restore" style="margin-left: -50px; font-size: 18px;"></i>
-                <a href="index.aspx">首页</a> &gt; 政策法规
+                <table class="tableone">
+                    <tr>
+                        <th>
+                            <asp:Label ID="Label1" runat="server" Text="法规标题" Font-Size="20px"></asp:Label>
+                        </th>
+                        <th>
+                            <asp:TextBox ID="TextBox1" CssClass="box" runat="server" Width="130px" Height="20px"></asp:TextBox>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <asp:Label ID="Label3" runat="server" Text="所属地区" Font-Size="20px"></asp:Label>
+                        </th>
+                        <th>
+                            <asp:DropDownList ID="DropDownList1" CssClass="box" runat="server" Width="130px" Height="22px">
+                                <asp:ListItem> </asp:ListItem>
+                                 <asp:ListItem Value="1">杭州</asp:ListItem>
+                                <asp:ListItem Value="2">宁波</asp:ListItem>
+                                <asp:ListItem Value="3">温州</asp:ListItem>
+                                <asp:ListItem Value="4">嘉兴</asp:ListItem>
+                                <asp:ListItem Value="5">湖州</asp:ListItem>
+                                <asp:ListItem Value="6">绍兴</asp:ListItem>
+                                <asp:ListItem Value="7">金华</asp:ListItem>
+                                <asp:ListItem Value="8">衢州</asp:ListItem>
+                                <asp:ListItem Value="9">舟山</asp:ListItem>
+                                <asp:ListItem Value="10">台州</asp:ListItem>
+                                <asp:ListItem Value="11">丽水</asp:ListItem>
+                            </asp:DropDownList>
+                        </th>
+                    </tr>
+                </table>
+                <table class="tabletwo">
+                    <tr>
+                        <th>
+                            <asp:Label ID="Label2" runat="server" Text="上传word文档" Font-Size="20px"></asp:Label>
+                        </th>
+                        <th>
+                            <asp:FileUpload ID="FileUpload1" CssClass="FileUploadbox" runat="server" EnableTheming="True" />
+                        </th>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th>
+                            <asp:Button ID="announce_button" CssClass="button" runat="server" Text="上传文件" OnClick="announce_button_Click"  />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <asp:Button ID="backtohome" CssClass="button" runat="server" Text="回到首页"  />
+                        </th>
+                    </tr>
+                </table>
+ 
             </div>
-            <div class="news_list">
-                <div class="list" style="border-bottom: 0px;">
-                    <h2>
-                        <i class="fa fa-chevron-right" style="color: #b7700b; margin-left: -50px;"></i>
-                        <i class="fa fa-chevron-right" style="color: #b7700b; margin-left: -50px; margin-right: 10px;"></i>
-                        政策法规
-                        <asp:GridView ID="creditSystemRulesAndPublicityGridView" Width="90%" runat="server" AutoGenerateColumns="False">
-                        <Columns>
-                            <asp:BoundField DataField="Ltitle" HeaderText="法规名称">
-                                <FooterStyle HorizontalAlign="Center" />
-                                <HeaderStyle HorizontalAlign="Left" />
-                                <ItemStyle HorizontalAlign="Left" />
-                            </asp:BoundField>
-                            <asp:BoundField DataField="Ltime" HeaderText="发布时间">
-                                <FooterStyle HorizontalAlign="Center" />
-                                <HeaderStyle HorizontalAlign="Center" />
-                                <ItemStyle HorizontalAlign="Center" />
-                            </asp:BoundField>
-                            <asp:TemplateField ShowHeader="False">
-                                <ItemTemplate>
-                                    <asp:LinkButton ID="LinkButton1" CssClass="linkbutton_style" runat="server" CausesValidation="false" CommandName="" Text="查看详情" OnClick="LinkButton1_Click" ></asp:LinkButton>
-                                </ItemTemplate>
-                                <ItemStyle HorizontalAlign="Center" />
-                            </asp:TemplateField>
-                        </Columns>
-                        <RowStyle HorizontalAlign="Center" />
-                    </asp:GridView>
-
-                    </h2>
-                   <%-- <ul>
-                        <li><a href="http://www.gdfdp.org/article/index/119.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  公益性捐赠税前扣除资格</a><span>2015-12-24</span></li>
-                        <li><a href="http://www.gdfdp.org/article/index/118.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  非营利性组织免税资格</a><span>2015-12-24</span></li>
-                        <li><a href="http://www.gdfdp.org/article/index/50.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  非盈利组织相关法律法规</a><span>2013-08-05</span></li>
-                        <li><a href="http://www.gdfdp.org/article/index/29.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  基金会成立登记公告</a><span>2013-07-30</span></li>
-                        <li><a href="http://www.gdfdp.org/article/index/28.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  十二五规划</a><span>2013-07-30</span></li>
-                        <li><a href="http://www.gdfdp.org/article/index/27.html"><i class="fa fa-file-o" style="margin-left: -24px;"></i>  残疾人相关的法律法规</a><span>2013-07-30</span></li>
-                    </ul>--%>
-                </div>
+                  
                 <div class="page">
                 </div>
 
             </div>
-        </div>
+            </form>
     </div>
     
     
@@ -204,7 +207,6 @@
 	<div class="copyright">
 	</div>
 </div>
-        </form>
     </body>
 
 </html>
