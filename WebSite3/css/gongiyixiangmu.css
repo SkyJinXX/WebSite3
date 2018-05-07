@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.activity_list{margin:0px auto;width:980px; margin-top:10px; padding-bottom:20px;}
+.activity_list .position{ background:url(position_icon.jpg) no-repeat; text-indent:24px; font-size:12px; height:18px; line-height:18px; margin-left:20px;}
+.activity_list .al{ width:900px; margin:0px auto;}
+.activity_list .al li{ width:139px; text-align:center; margin: 30px 40px;*margin: 30px 35px; float:left;}
+.activity_list .al li  img{ margin-bottom:8px;}
+.activity_list .al li a{ font-size:14px; font-weight:bold; color:#090909;}
+
+.desc{ margin:18px 0px;}
+.desc .ac_con{width:535px; float:right; line-height:18px; font-size:12px;}
+.desc .ac_con h3{ height:30px; line-height:30px;}
+
+
+.project_img{ float:left;}
+.project_con{ width:345px; float:right;}
+.project_con a{float:right; color:#F00; font-size:12px;}
+
+
+.ac_title{font-size:14px; font-weight:bold; text-indent:24px; background:url(new_title_bg.jpg) no-repeat 0px 3px; margin:10px auto;}
+
+
+
+

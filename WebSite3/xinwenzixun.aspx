@@ -7,8 +7,8 @@
 <title>“天使之音”残疾人关爱服务中心</title>
 <meta name="keywords" content="“天使之音”残疾人关爱服务中心">
 <meta name="description" content="“天使之音”残疾人关爱服务中心">
+<link rel="stylesheet" type="text/css" href="css/css.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/zhongxijianjie.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
 <script src="js/jquery.js" type="text/javascript"></script>
@@ -40,13 +40,13 @@
 		<a href="zhengcefagui.aspx" title="政策法规">政策法规</a>
 	</li>
 	<li>
+		<a href="yiyuanxinxi.aspx" title="医院信息">医院信息</a>
+	</li>
+	<li>
 		<a href="zaixianjuankuan.aspx" title="在线捐款">在线捐款</a>
 	</li>
 	<li>
 		<a href="lianxiwomen.aspx" title="联系我们">联系我们</a>
-	</li>
-	<li>
-		<a href="yiyuanxinxi.aspx" title="医院信息">医院信息</a>
 	</li>
 	<li>
 		<a href="liuyanzixun.aspx" title="留言咨询">留言咨询</a>
@@ -66,9 +66,20 @@
         	<span style="margin-left:320px;">
         	            	<a href="http://www.gdfdp.org/activity_list/index/2.aspx" title="救助幼苗行动">救助幼苗行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/6.aspx" title="助困行动">助困行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/7.aspx" title="助学行动">助学行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/8.aspx" title="助行行动">助行行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/9.aspx" title="助听行动">助听行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/10.aspx" title="助明行动">助明行动</a>  |                        	<a href="http://www.gdfdp.org/activity_list/index/11.aspx" title="助养行动">助养行动</a>                         </span>
         </div>
-                <div class="show" id="znav4">
-        	<span style="margin-left:456px;">
-        	            	<a href="http://www.gdfdp.org/minzhengxitongwenjian.aspx" title="民政系统文件">民政系统文件</a>  |                        	<a href="http://www.gdfdp.org/caizhengxitongwenjian.aspx" title=" 财政系统文件"> 财政系统文件</a>  |                        	<a href="http://www.gdfdp.org/shuiwujuwenjian.aspx" title=" 税务局文件"> 税务局文件</a>  |                        	<a href="http://www.gdfdp.org/canlianxitongwenjian.aspx" title="残联系统文件">残联系统文件</a>                         </span>
+        <div class="show" id="znav4">
+            <span style="margin-left: 456px;">
+                <a href="http://www.gdfdp.org/jijinhuijianjie.aspx" title="杭州">杭州</a>|
+                <a href="http://www.gdfdp.org/lingdaojieshao.aspx" title="宁波">宁波</a>  |                        	
+                 <a href="http://www.gdfdp.org/jijinhuizhangcheng.aspx" title="温州">温州</a>  |                        	
+                <a href="http://www.gdfdp.org/zuzhijiagou.aspx" title="嘉兴">嘉兴</a>  |                        	
+                <a href="http://www.gdfdp.org/guanlizhidu.aspx" title="湖州">湖州</a>  |                        	                        	
+                <a href="http://www.gdfdp.org/guanlizhidu.aspx" title="绍兴">绍兴</a>  |                        	
+                <a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="金华">金华</a>       |                        	
+                <a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="衢州">衢州</a>      |                        	
+                <a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="舟山">舟山</a>      |                        	
+                <a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="台州">台州</a>      |                        	
+                <a href="http://www.gdfdp.org/rongyu-jianglizizhizhanshi.aspx" title="丽水">丽水</a>
+            </span>
         </div>
                 <div class="show" id="znav5">
         	<span style="margin-left:556px;">
@@ -81,6 +92,10 @@
                 <div class="show" id="znav7">
         	<span style="margin-left:920px;">
         	            	<a href="http://www.gdfdp.org/page/index/19.aspx" title="招聘信息">招聘信息</a>                         </span>
+        </div>
+        <div class="show" id="znav8">
+            <span style="margin-left: 920px;">
+                <a href="http://www.gdfdp.org/page/index/19.aspx" title="问题咨询">问题咨询</a>                         </span>
         </div>
             </div>
     <div class="c"></div>
